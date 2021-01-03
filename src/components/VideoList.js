@@ -14,4 +14,4 @@ export default function VideoList({ videos, onVideoSelect }) {
           ))}
     </div>
   );
-}
+};

@@ -12,7 +12,7 @@ class App extends Component {
 
   componentDidMount() {
     this.onTermSubmit('react.js');
-  }
+  };
 
   onTermSubmit = async (term) => {
     const res = await youTube.get("/search", {
@@ -48,7 +48,7 @@ class App extends Component {
         </div>
       </div>
     );
-  }
-}
+  };
+};
 
 export default App;
